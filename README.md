@@ -8,3 +8,7 @@ Possible future features list:
 - Asking for the restaurant the person ate at when adding a bill (and probably changing the way the bills are displayed in the bill history if this is implemented)
 - Allow the user to toggle the "money allowed" input option (and as a result not always add to the current leftover amount of money by default)
 - Allow the user to remove the leftover money display altogether
+- Restaurant suggestions
+- Favorite restaurants
+- Restaurants "near me"
+- Feature where the user can assign certain restaurants to certain days of the week
