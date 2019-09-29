@@ -1,7 +1,7 @@
 # Restaurant-Spending-Tracker
 Android app that can be used for tracking a person's restaurant spending over time
 
-This app keeps track of a person's restaurant bills and how much "leftover" money they
+This app keeps track of a person's restaurant bills and how much total "leftover" money they
 have from their bills. When adding a bill, the user is asked for the amount of money
 they spent at the restaurant and how much money they were "allowed" to spend; determining
 what is allowed could be based on different constraints for different people. For example,
