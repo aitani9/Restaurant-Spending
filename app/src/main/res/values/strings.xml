@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Restaurant Spending Tracker</string>
+    <string name="add_bill">Add Bill</string>
+    <string name="leftover_money">Leftover Money: %1$s</string>
+    <string name="bill_history">Bill History</string>
+    <string name="add_to_bill_history">add to bill history</string>
+    <string name="new_display_date">%1$s Spent: %2$.2f; "Allowed": %3$.2f </string>
+    <string name="money_for_that_day">Money for that day</string>
+    <string name="amount_paid">Amount paid</string>
+    <string name="remember_allowed_money">Remember allowed money</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="delete">Delete</string>
+    <string name="date">Date</string>
+    <string name="select_a_date">Select a date</string>
+    <string name="default_to_today_s_date">Default to today\'s date</string>
+    <string name="spent">Spent</string>
+    <string name="allowed">Allowed</string>
+    <string name="display_date">%1$s/%2$s/%3$s</string>
+    <string name="your_bill_history_is_empty">Your bill history is empty</string>
+    <string name="mm_dd_yyyy">mm/dd/yyyy</string>
+    <string name="date_s">Date(s)</string>
+    <string name="delete_dialog_guidelines">Individual bills can be deleted by swiping them left.
+        \n\nBills can also be deleted by specifying the date on which they were paid.
+        \n\nBills on different dates can be deleted simultaneously by using \"X\"s.
+        \n\nFor example, \"XX/XX/2019\" deletes all bills of 2019; \"9/XX/2019\" deletes all bills
+            of September 2019; and \"XX/XX/XXXX\" deletes all bills.</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBillActivity">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/etDatePayed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <EditText
+        android:id="@+id/etDatePayed"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/select_a_date"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+        app:layout_constraintEnd_toEndOf="@+id/etAmountPaid"
+        app:layout_constraintStart_toStartOf="@+id/etAmountPaid"
+        app:layout_constraintTop_toTopOf="@+id/tvDate"
+        android:importantForAutofill="no" />
+
+    <CheckBox
+        android:id="@+id/cbDefaultToToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/default_to_today_s_date"
+        app:layout_constraintStart_toStartOf="@+id/cbRememberAllowedMoney"
+        app:layout_constraintTop_toBottomOf="@id/etDatePayed" />
+
+    <TextView
+        android:id="@+id/tvSpent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etMoneyAllowed"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/etAmountPaid"
+        app:layout_constraintTop_toBottomOf="@+id/cbDefaultToToday"
+        app:layout_constraintVertical_bias="0.429" />
+
+    <EditText
+        android:id="@+id/etAmountPaid"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/amount_paid"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/tvSpent"
+        app:layout_constraintEnd_toEndOf="@+id/etMoneyAllowed"
+        app:layout_constraintStart_toStartOf="@+id/etMoneyAllowed"
+        app:layout_constraintTop_toTopOf="@+id/tvSpent"
+        app:layout_constraintVertical_bias="0.50"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/tvAllowed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allowed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/etMoneyAllowed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <EditText
+        android:id="@+id/etMoneyAllowed"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/money_for_that_day"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/tvAllowed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvAllowed"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btAddToBillHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_bill_history"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <CheckBox
+        android:id="@+id/cbRememberAllowedMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_allowed_money"
+        app:layout_constraintBottom_toTopOf="@+id/btAddToBillHistory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMoneyAllowed"
+        app:layout_constraintVertical_bias="0.137" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
