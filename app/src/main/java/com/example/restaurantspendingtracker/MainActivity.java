@@ -1,3 +1,5 @@
+// TODO change name of app to "Restaurant Spending"
+
 /*
  * The home screen.
  *
