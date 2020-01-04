@@ -9,6 +9,7 @@ This app keeps track of a person's restaurant bills and how much total "leftover
 
 Possible future features list:
 - [See TODO comments throughout project]
+- Was possibly thinking we could turn this into a general "budget" app with different sections (e.g. a section for restraunts, groceries, other sources of spending, etc.)
 - Asking for the restaurant the person ate at when adding a bill (and probably changing the way the bills are displayed in the bill history if this is implemented)
 - Allow the user to toggle the "money allowed" input option (and as a result not always add to the current leftover amount of money by default)
 - Allow the user to remove the leftover money display altogether
